@@ -3,7 +3,26 @@
 
 <head>
   <style>
+    *{
+      font-family: "Oxygen" !important;
+      font-weight: 700 !important;
+      text-decoration:none !important;
+    }
+    h1,h2,h5{
+      color: rgb(105, 17, 187) !important;
+    }
     
+      .Img-Linha-sub{
+margin-left: 0px;
+}
+
+
+
+    
+    h3,p{
+      color: slategray !important;
+      
+    }
     .img-banner
     {
       overflow: hidden;
@@ -12,25 +31,30 @@
     }
     .img-banner-2
     {
+     
       overflow: hidden;
       padding-left: 0px!important;
       margin-left: 0px !important;
     }
 .card{
-  width:auto ;
-  height: auto;
   border: 0 !important;
 }
 
-.t{
+.texto-1{
+  padding-top: 20px !important;
+  padding-bottom: 20px;
+}
+.linha-1{
   margin-top: 100px !important;
   width:160px ;
   height: 10px; ;
-  margin-left: 450px;
+  
+}
+.t-2{
+  margin-left: 0 !important;
 }
  .titulo-2{
-  margin-top: 60px !important;
-  font-size: xx-large;
+  margin-top: 60px;
   margin-bottom: 60px;
  } 
  footer{
@@ -48,12 +72,22 @@
  overflow: hidden;
  margin-bottom: 5px;
  }
+ .bt-1{
+  width: 100px;
+  height: 40px;
+
+  background: rgb(20,13,140);
+background: linear-gradient(45deg, rgba(20,13,140,1) 0%, rgba(9,121,202,1) 31%, rgba(3,182,238,1) 52%, rgba(0,212,255,1) 71%, rgba(0,230,255,1) 95%);
+ }
 
   </style>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
@@ -97,11 +131,15 @@
         <img class="img-fluid float-end  " src="./src/Imagens/img-banner-teste-programador.png" alt="">
       </div>
       <div class="col-md-4 align-self-center">
-        <h1>Start your <br> workday <br> comfortably</h1>
-        <p>hchtcctctucuvjyvycutvjyvyvtugctyuvjyv
-          yuvyvbukboiubiuvbiubbiunoiniubiyboinoin
+        <div class="container ">
+        <h1 class="titulo-1">Start Your Workday Comfortably</h1>
+        <p class="texto-1">Get in, sit back and experience the comfort of car
+          that takes yuo directly to your destination.
+          Arriving work as a sardine whith public transport or
+          sweating is a thing of the past.
         </p>
-        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-primary bt-1">Discover</button>
+      </div>
       </div>
     </div>
   </div>
@@ -109,10 +147,19 @@
 
   <!-- Cards -->
 <section>
+ 
 
-  <div class="container  ">
-    <img class="t" src="./src/Imagens/linha-reta-teste-programador.png.jpg" alt="">
-    <h2 class=" text-center titulo-2">texto aleatorio</h2>
+  <div class="container">
+    <div class="row">
+    <div class="col">
+    </div>
+    <div class="col">
+      <img class="linha-1" src="./src/Imagens/linha-reta-teste-programador.png.jpg" alt="">
+      <h2 class=" titulo-2">How to get started?</h2>
+    </div>
+    <div class="col">
+    </div>
+  </div>
   </div>
 
   <div class="container">
@@ -121,8 +168,14 @@
     <div class="card">
       <img src="./src/Imagens/solucao-1-teste-programador.png" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 class="card-title">Create your accont</h5>
+        <p class="card-text">
+          Complete your accont
+          with some basic information
+          including your home
+          your work location and
+          your working hours.
+        </p>
       </div>
     </div>
   </div>
@@ -130,8 +183,16 @@
     <div class="card">
       <img src="./src/Imagens/solucao-2-teste-programador.png" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 class="card-title">Plan yor journeys</h5>
+        <p class="card-text">
+          Open the app,
+          click the agenda tab
+          and enter your working hours
+          for the coming week.
+          then you'll be presented
+          with a list of our drivers. 
+
+        </p>
       </div>
     </div>
   </div>
@@ -139,8 +200,15 @@
     <div class="card">
       <img src="./src/Imagens/solucao-3-teste-programador.png" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        <h5 class="card-title">Meet your driver</h5>
+        <p class="card-text">
+          Use our chat to get to know
+          your match with our driver.
+          You'll be piked up at 
+          your regular location,
+          or agree on an alternative 
+          pick-up location. 
+          </p>
       </div>
     </div>
   </div>
@@ -148,30 +216,43 @@
     <div class="card">
       <img src="./src/Imagens/solucao-4-teste-programador.png" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <h5 class="card-title">Enjoy your journey</h5>
+        <p class="card-text">
+          Get in, sit back 
+          and enjoy your journey
+          that takes you directly
+          to you destination
+          with some free 
+          cup of coffe from us.
+        </p>
       </div>
     </div>
   </div>
 </div>
 </div>
 </section>
+
   <!-- Banner 2 -->
 <section>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8 img-banner-2">
-        <img class="img-fluid" src="./src/Imagens/img-fundo-teste-programador.png" alt="">
+  <div class="container t-2">
+    <div class="row " style="margin-top: 100px;">
+      <div class="col-md-6 img-banner-2">
+        <img class="img-fluid " src="./src/Imagens/img-fundo-teste-programador.png" alt="">
       </div>
-      <div class="col-md-4 align-self-left">
+      <div class="col-md-6 align-self-left">
 
-        <div class="container " style="margin-top: 200px;">
+        <div class="container ">
           <img class="img-fluid" src="./src/Imagens/linha-reta-teste-programador.png.jpg" alt="">
-          <h3>asdbsucusubasbcuiasbuicbaacasca
-            ascasvvcuiasbcubauobcoacoinacansoi
-            ascbiabscoacbacasmcmsapccasscasc
+          <h3 class="titulo-2">DriveOn is a mobile carpool platform that effortleessly
+            brings commuters together in one car.
+            Traveling home and work will never be the same again.
+            Our mission is to stop traffic jams and CO2 polluition
+            as a result of inefficient car commuting.
+             <br>
+             <br>
+             Are you in?
           </h3>
-          <a href="#">liniiiiiiinnnnnlkk >></a>
+          <a href="#">Learn more >></a>
         </div>
       
       </div>
@@ -184,17 +265,25 @@
 
 <section>
   <div class="container img-banner ">
-    <div class="row">
-      <div class="col-md-8 order-md-last img-banner" >
+    <div class="row ">
+      <div class="col-md-6 order-md-last img-banner" >
         <img class="img-fluid float-end  " src="./src/Imagens/img-fundo-2-teste-programador.png" alt="">
       </div>
-      <div class="col-md-4 align-self-center">
-        <h1>Start your <br> workday <br> comfortably</h1>
-        <p>hchtcctctucuvjyvycutvjyvyvtugctyuvjyv
-          yuvyvbukboiubiuvbiubbiunoiniubiyboinoin
+      
+<div class="col-md-6 align-self-center">
+    <div class="container">
+        <img class="img-fluid" src="./src/Imagens/linha-reta-teste-programador.png.jpg" alt="">
+        <h3 class="titulo-2">
+            Our commitment to your safety
+        </h3>
+        <p>
+            With every safety feature we add and every standard in the Community Guide that we uphold,
+            we are committed to protecting you throughout the journey.
+            Learn more about our Community Guide <a style="color: blueviolet;" href="#">here.</a>
         </p>
-        <button type="button" class="btn btn-primary">Primary</button>
-      </div>
+        <img class="Img-Linha-sub" style="width: 47px; height: 5px; margin-top: -50px; display: inline;" src="./src/Imagens/linha-reta-teste-programador.png.jpg" alt="">
+    </div>
+</div>
     </div>
   </div>
 </section>
