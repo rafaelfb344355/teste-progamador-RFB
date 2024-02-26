@@ -3,121 +3,199 @@
 
 <head>
   <style>
-    *{
+    * {
       font-family: "Oxygen" !important;
       font-weight: 700 !important;
-      text-decoration:none !important;
+      text-decoration: none !important;
+
+
     }
-    h1,h2,h5{
+
+    h1,
+    h2,
+    h5 {
       color: rgb(105, 17, 187) !important;
-    }   
-   
-    .Img-Linha-sub{
-     
-     width: 47px;
-      height: 5px; 
+    }
+
+    .Img-Linha-sub {
+
+      width: 47px;
+      height: 5px;
       margin-top: -50px;
-  } 
-  
+    }
+
     /* iphone SE  */
-    @media (min-width: 370px){ 
-        
-        .Img-Linha-sub{
-     margin-left: 156px;
-     
-  } }
-      /* samsug G S20 U */
-   @media (min-width: 410px){ 
-        
-        .Img-Linha-sub{
-     margin-left: 130px;
-  }
+    @media (min-width: 370px) {
+
+      .Img-Linha-sub {
+        margin-left: 156px;
+
       }
-          /* iphone 14 P M  */
-    @media (min-width: 430px){ 
-        
-      .Img-Linha-sub{
-   margin-left: 30px;
-}
+
+
     }
-    @media (min-width: 700px){ 
-        
-        .Img-Linha-sub{
-     margin-left: 0px;
-  }
+
+    /* samsug G S20 U */
+    @media (min-width: 410px) {
+
+      .Img-Linha-sub {
+        margin-left: 130px;
       }
-  
-    
-    
-    h3,p{
-      color: slategray !important;
-      
+
+
     }
-    .img-banner
-    {
+
+    /* iphone 14 P M  */
+    @media (min-width: 430px) {
+
+      .Img-Linha-sub {
+        margin-left: 30px;
+      }
+
+    }
+
+    @media (min-width: 700px)  {
+
+      .Img-Linha-sub {
+        margin-left: 0px;
+      }
+
+      .fundo {
+        background: url("src/Imagens/img-fundo-4-teste-programador.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+        overflow: hidden;
+        margin-bottom: 5px;
+      }
+
+      .linha-cinza {
+
+        filter: opacity(9%);
+
+        margin-top: -14px;
+      }
+
+    }
+    /* @media (min-width: 1200px)  {
+      .Img-Linha-sub {
+        margin-left: 300px;
+      }
+
+    } */
+   
+
+    .x {
+      background-color: white;
+
+      width: 212px;
+      height: 14px;
+    }
+
+    h3,
+    p {
+      color: rgb(149, 152, 155) !important;
+
+    }
+
+    .img-banner {
       overflow: hidden;
-      padding-right: 5px!important;
+      padding-right: 5px !important;
       margin-right: 0px !important;
     }
-    .img-banner-2
-    {
-     
+
+    .img-banner-2 {
+
       overflow: hidden;
-      padding-left: 0px!important;
+      padding-left: 0px !important;
       margin-left: 0px !important;
     }
-.card{
-  border: 0 !important;
-}
 
-.texto-1{
-  padding-top: 20px !important;
-  padding-bottom: 20px;
-}
-.linha-1{
-  margin-top: 100px !important;
-  width:160px ;
-  height: 10px; ;
-  
-}
-.t-2{
-  margin-left: 0 !important;
-}
- .titulo-2{
-  margin-top: 60px;
-  margin-bottom: 60px;
- } 
- footer{
-  background: url("src/Imagens/fundo-footer-teste-programador.png.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
- overflow: hidden;
- margin-top: 10px;
- }
- .fundo{
-  background: url("src/Imagens/img-fundo-4-teste-programador.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 600px;
- overflow: hidden;
- margin-bottom: 5px;
- }
- .bt-1{
-  width: 100px;
-  height: 40px;
+    .card {
+      border: 0 !important;
+    }
 
-  background: rgb(20,13,140);
-background: linear-gradient(45deg, rgba(20,13,140,1) 0%, rgba(9,121,202,1) 31%, rgba(3,182,238,1) 52%, rgba(0,212,255,1) 71%, rgba(0,230,255,1) 95%);
- }
+    .texto-1 {
+      padding-top: 20px !important;
+      padding-bottom: 20px;
+    }
 
+    .linha-1 {
+      margin-top: 100px !important;
+      width: 160px;
+      height: 10px;
+      ;
+
+    }
+
+    .t-2 {
+      margin-left: 0 !important;
+    }
+
+    .titulo-2 {
+      margin-top: 60px;
+      margin-bottom: 60px;
+    }
+    .fundo-footer{
+      background: url("src/Imagens/fundo-footer-teste-programador.png.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      overflow: hidden;
+      margin: 0 !important;
+      width: 100% !important;
+      margin-top: 10px;
+    }
+    
+
+    .bt-1 {
+      width: 100px;
+      height: 40px;
+
+      background: rgb(20, 13, 140);
+      background: linear-gradient(45deg, rgba(20, 13, 140, 1) 0%, rgba(9, 121, 202, 1) 31%, rgba(3, 182, 238, 1) 52%, rgba(0, 212, 255, 1) 71%, rgba(0, 230, 255, 1) 95%);
+    }
+
+    .bt-dowl {
+      width: 200px;
+      height: 90p;
+      background-color: black !important;
+      border: 0 !important;
+      margin: 20px;
+
+    }
+    .icone{
+      filter: invert(100%);
+      width: 25px;
+      height: 25px;
+    }
+    span{
+      font-size: small;
+      color: white !important ;
+    }
+    h6
+    {
+      color: white !important;
+    }
+    .bt-log{
+      
+      color: rgb(105, 17, 187) !important;
+      background-color: rgba(255, 255, 255, 0) !important;
+      border-color:rgba(252, 252, 252, 0)!important ; 
+    }
+    .bt-sig{
+      color: rgb(3, 120, 255)!important;
+      border-color:rgb(3, 120, 255)!important ; 
+background-color: rgba(255, 255, 255, 0) !important;
+    }
   </style>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>Home</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
@@ -125,7 +203,7 @@ background: linear-gradient(45deg, rgba(20,13,140,1) 0%, rgba(9,121,202,1) 31%, 
 <body>
 
 
-<!-- navbar -->
+  <!-- navbar -->
 
 
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -140,264 +218,335 @@ background: linear-gradient(45deg, rgba(20,13,140,1) 0%, rgba(9,121,202,1) 31%, 
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#">Drivers</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#">Passengers</a>
+          </li>
+          <li style="width: 100px;" class="nav-item">
+            <a class="nav-link" href="#">Abaut Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#">Contact</a>
           </li>
         </ul>
+        <div style="margin-left: 40%;" class="d-grid gap-2 d-md-flex justify-content-md-end">
+          <button class="bt-log btn btn-primary me-md-2" type="button"><img  style="  width: 15px; height: 17px;" src="./src/Imagens/icone-login-teste-programador.png" alt="">Log In</button>
+          <button class="bt-sig btn btn-primary" type="button">Sign Up</button>
+        </div>
+        
       </div>
+     
     </div>
   </nav>
 
   <!-- Banner 1 -->
-<section>
-  <div class="container img-banner ">
-    <div class="row">
-      <div class="col-md-8 order-md-last img-banner" >
-        <img class="img-fluid float-end  " src="./src/Imagens/img-banner-teste-programador.png" alt="">
-      </div>
-      <div class="col-md-4 align-self-center">
-        <div class="container ">
-        <h1 class="titulo-1">Start Your Workday Comfortably</h1>
-        <p class="texto-1">Get in, sit back and experience the comfort of car
-          that takes yuo directly to your destination.
-          Arriving work as a sardine whith public transport or
-          sweating is a thing of the past.
-        </p>
-        <button type="button" class="btn btn-primary bt-1">Discover</button>
-      </div>
+  <section>
+    <div class="container img-banner ">
+      <div class="row">
+        <div class="col-md-8 order-md-last img-banner">
+          <img class="img-fluid float-end  " src="./src/Imagens/img-banner-teste-programador.png" alt="">
+        </div>
+        <div class="col-md-4 align-self-center">
+          <div class="container ">
+            <h1 class="titulo-1">Start Your Workday Comfortably</h1>
+            <p class="texto-1">Get in, sit back and experience the comfort of car
+              that takes yuo directly to your destination.
+              Arriving work as a sardine whith public transport or
+              sweating is a thing of the past.
+            </p>
+            <button type="button" class="btn btn-primary bt-1">Discover</button>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
   <!-- Cards -->
-<section>
- 
+  <section>
 
-  <div class="container">
-    <div class="row">
-    <div class="col">
-    </div>
-    <div class="col">
-      <img class="linha-1" src="./src/Imagens/linha-reta-teste-programador.png.jpg" alt="">
-      <h2 class=" titulo-2">How to get started?</h2>
-    </div>
-    <div class="col">
-    </div>
-  </div>
-  </div>
 
-  <div class="container">
- <div class="row row-cols-2 row-cols-md-4 sm-1">
-  <div class="col">
-    <div class="card">
-      <img src="./src/Imagens/solucao-1-teste-programador.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Create your accont</h5>
-        <p class="card-text">
-          Complete your accont
-          with some basic information
-          including your home
-          your work location and
-          your working hours.
-        </p>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+        </div>
+        <div class="col">
+          <img class="linha-1" src="./src/Imagens/linha-reta-teste-programador.png.jpg" alt="">
+          <h2 class=" titulo-2">How to get started?</h2>
+        </div>
+        <div class="col">
+        </div>
       </div>
     </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="./src/Imagens/solucao-2-teste-programador.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Plan yor journeys</h5>
-        <p class="card-text">
-          Open the app,
-          click the agenda tab
-          and enter your working hours
-          for the coming week.
-          then you'll be presented
-          with a list of our drivers. 
 
-        </p>
+    <div class="container">
+      <div class="row row-cols-2 row-cols-md-4 sm-1">
+        <div class="col">
+          <div class="card">
+            <img src="./src/Imagens/solucao-1-teste-programador.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Create your accont</h5>
+              <p class="card-text">
+                Complete your accont
+                with some basic information
+                including your home
+                your work location and
+                your working hours.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./src/Imagens/solucao-2-teste-programador.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Plan yor journeys</h5>
+              <p class="card-text">
+                Open the app,
+                click the agenda tab
+                and enter your working hours
+                for the coming week.
+                then you'll be presented
+                with a list of our drivers.
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./src/Imagens/solucao-3-teste-programador.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Meet your driver</h5>
+              <p class="card-text">
+                Use our chat to get to know
+                your match with our driver.
+                You'll be piked up at
+                your regular location,
+                or agree on an alternative
+                pick-up location.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./src/Imagens/solucao-4-teste-programador.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Enjoy your journey</h5>
+              <p class="card-text">
+                Get in, sit back
+                and enjoy your journey
+                that takes you directly
+                to you destination
+                with some free
+                cup of coffe from us.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="./src/Imagens/solucao-3-teste-programador.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Meet your driver</h5>
-        <p class="card-text">
-          Use our chat to get to know
-          your match with our driver.
-          You'll be piked up at 
-          your regular location,
-          or agree on an alternative 
-          pick-up location. 
-          </p>
-      </div>
-    </div>
-  </div>
-  <div class="col">
-    <div class="card">
-      <img src="./src/Imagens/solucao-4-teste-programador.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Enjoy your journey</h5>
-        <p class="card-text">
-          Get in, sit back 
-          and enjoy your journey
-          that takes you directly
-          to you destination
-          with some free 
-          cup of coffe from us.
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-</section>
+  </section>
 
   <!-- Banner 2 -->
-<section>
-  <div class="container t-2">
-    <div class="row " style="margin-top: 100px;">
-      <div class="col-md-6 img-banner-2">
-        <img class="img-fluid " src="./src/Imagens/img-fundo-teste-programador.png" alt="">
-      </div>
-      <div class="col-md-6 align-self-left">
-
-        <div class="container ">
-          <img class="img-fluid" src="./src/Imagens/linha-reta-teste-programador.png.jpg" alt="">
-          <h3 class="titulo-2">DriveOn is a mobile carpool platform that effortleessly
-            brings commuters together in one car.
-            Traveling home and work will never be the same again.
-            Our mission is to stop traffic jams and CO2 polluition
-            as a result of inefficient car commuting.
-             <br>
-             <br>
-             Are you in?
-          </h3>
-          <a href="#">Learn more >></a>
+  <section>
+    <div class="container t-2">
+      <div class="row " style="margin-top: 100px;">
+        <div class="col-md-6 img-banner-2">
+          <img class="img-fluid " src="./src/Imagens/img-fundo-teste-programador.png" alt="">
         </div>
-      
+        <div class="col-md-6 align-self-left">
+
+          <div class="container ">
+            <img class="img-fluid" src="./src/Imagens/linha-reta-teste-programador.png.jpg" alt="">
+            <h3 class="titulo-2">DriveOn is a mobile carpool platform that effortleessly
+              brings commuters together in one car.
+              Traveling home and work will never be the same again.
+              Our mission is to stop traffic jams and CO2 polluition
+              as a result of inefficient car commuting.
+              <br>
+              <br>
+              Are you in?
+            </h3>
+            <a href="#">Learn more >></a>
+          </div>
+
+        </div>
       </div>
     </div>
-  </div>
-</section>
- 
+  </section>
 
- <!-- Banner 3 -->
 
-<section>
-  <div class="container img-banner ">
-    <div class="row ">
-      <div class="col-md-6 order-md-last img-banner" >
-        <img class="img-fluid float-end  " src="./src/Imagens/img-fundo-2-teste-programador.png" alt="">
-      </div>
-      
-<div class="col-md-6 align-self-center">
-    <div class="container">
-        <img class="img-fluid" src="./src/Imagens/linha-reta-teste-programador.png.jpg" alt="">
-        <h3 class="titulo-2">
-            Our commitment to your safety
-        </h3>
-        <p>
-            With every safety feature we add and every standard in the Community Guide that we uphold,
-            we are committed to protecting you throughout the journey.
-            Learn more about our Community Guide <a style="color: blueviolet;" href="#">here.</a>
-        </p>
-        <img class="Img-Linha-sub"  display: inline;" src="./src/Imagens/linha-reta-teste-programador.png.jpg" alt="">
-    <a href="#">See all safety fearures>></a>
-      </div>
-</div>
-    </div>
-  </div>
-</section>
+  <!-- Banner 3 -->
 
- <!-- Banner 4 -->
-<section class="fundo">
-  <div class="container img-banner ">
-    <div class="row">
-      <div class="col-md-8 order-md-last img-banner" >
-        <h1>Start your <br> workday <br> comfortably</h1>
-        <p>hchtcctctucuvjyvycutvjyvyvtugctyuvjyv
-          yuvyvbukboiubiuvbiubbiunoiniubiyboinoin
-        </p>
-        <button type="button" class="btn btn-primary">Primary</button>
-        <button type="button" class="btn btn-primary">Primary</button>
-      </div>
-      <div class="col-md-4 align-self-center">
-       
+  <section>
+    <div class="container img-banner ">
+      <div class="row ">
+        <div class="col-md-6 order-md-last img-banner">
+          <img class="img-fluid float-end  " src="./src/Imagens/img-fundo-2-teste-programador.png" alt="">
+        </div>
+
+        <div class="col-md-6 align-self-center">
+          <div class="container">
+            <img class="img-fluid" src="./src/Imagens/linha-reta-teste-programador.png.jpg" alt="">
+            <h3 class="titulo-2">
+              Our commitment to your safety
+            </h3>
+            <p>
+              With every safety feature we add and every standard in the Community Guide that we uphold,
+              we are committed to protecting you throughout the journey.
+              Learn more about our Community Guide <a style="color: blueviolet;" href="#">here.</a>
+            </p>
+
+            <img class="Img-Linha-sub" src="./src/Imagens/linha-reta-teste-programador.png.jpg" alt="">
+            <br>
+            <a href="#">See all safety fearures>></a>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</section>
- <!-- Texto com setas -->
-<section>
-  <img src="./src/Imagens/setas-teste-programador.png" alt="">
-  <img src="./src/Imagens/setas-teste-programador.png" alt="">
-</section>
+  </section>
 
-
-
-    <footer class="py-5">
-      <div class="container">
+  <!-- Banner 4 -->
+  <section class="fundo">
+    <div style="margin-top: 15%;" class="container">
       <div class="row">
-        <div class="col-6 col-md-2 mb-3">
-          <h5>Section</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-          </ul>
-        </div>
+        <div class="col-md-6 order-md-last">
 
-        <div class="col-8 col-md-2 mb-2">
-          <h5>Section</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-          </ul>
-        </div>
+          <div class="x">
+            <img class="linha-cinza" src="./src/Imagens/linha-reta-teste-programador.png.jpg" alt="">
+          </div>
+          <h3 class="titulo-2">
+            Dowload the DriveOn application <br>
+            to get more benefitis and experience
+          </h3>
 
-        <div class="col-6 col-md-2 mb-3">
-          <h5>Section</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-          </ul>
-        </div>
+          <button type="button" class="bt-dowl btn btn-primary">
+            <div class="row">
+              <div class="col-md-4">
+                <img style="rotate: 45deg; width:50px ; height:50px ; " src="./src/Imagens/triangulo verde.png" alt="">
+              </div>
+              <div class="col-md-8">
+                <h6 img class="col">GET IT ON Clay Store</h6>
+              </div>
+            </div>
+          </button>
 
-        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 ">
-          <p>© 2024 Company, Inc. All rights reserved.</p>
-          <ul class="list-unstyled d-flex">
-            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
-                  <use xlink:href="#twitter"></use>
-                </svg></a></li>
-            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
-                  <use xlink:href="#instagram"></use>
-                </svg></a></li>
-            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
-                  <use xlink:href="#facebook"></use>
-                </svg></a></li>
-          </ul>
+
+          <button type="button" class="bt-dowl btn btn-primary">
+            <div class="row">
+              <div class="col-md-4">
+                <img style="filter: invert(100%); width:50px ; height:50px ; " src="./src/Imagens/apple-logo.png" alt="">
+              </div>
+              <div class="col-md-8">
+                <h6 img class="col">Dowload on the Play APP</h6>
+              </div>
+            </div>
+          </button>
+        </div>
+        <div class="col-md-6 align-self-center">
+
         </div>
       </div>
-    </footer>
+    </div>
+  </section>
   
+  <!-- Texto com setas -->
+  <section style="margin-top: 100px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-8">
+              <h1 style="margin: 40px;">Register to be a <br> driver partner</h1>
+              <img style="margin: 40px;" src="./src/Imagens/linha-reta-teste-programador.png.jpg" alt="">
+            </div>
+            <div class="col-4"><img src="./src/Imagens/setas-teste-programador.png" alt=""></div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-8">
+              <h1 style="margin: 40px;">Register to start <br> your journey</h1>
+              <img style="margin: 40px; overflow: hidden;" src="./src/Imagens/linha-reta-teste-programador.png.jpg" alt="">
+            </div>
+            <div style="overflow: hidden;" class="col-4"><img src="./src/Imagens/setas-teste-programador.png" alt=""></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+
+  <section class="fundo-footer">
+    <div style="margin-top: 100px;" class="container">
+      <footer class="py-5">
+        <div class="row">
+          <div class="col-12 col-md-8 mb-3">
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <img style="margin-bottom: 30px; filter: grayscale(100%) brightness(0%) invert(100%); width: 120px; height: 30px;" src="./src/Imagens/logo-teste-programador.png" alt="">
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary d-flex align-items-center">
+                  <img style="filter: invert(100%); width: 25px; height: 25px; margin-right: 10px;" src="./src/Imagens/question-circle.png" alt="">
+                  <h6 class="text-center">Resolution Center</h6>
+                </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary d-flex align-items-center">
+                  <img style="filter: invert(100%); width: 20px; height: 20px; margin-right: 10px;" src="./src/Imagens/chat-right-fill.png" alt="">
+                  <h6>English</h6>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-2 mb-3">
+            <h6>About Us</h6>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><span>Newsroom</span></a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><span>Investor relation</span></a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><span>Global citzenship</span></a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><span>Safety</span></a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><span>Blog</span></a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><span>Career</span></a></li>
+            </ul>
+          </div>
+        
+          <div class="col-6 col-md-2 mb-3">
+            <h6>Our product</h6>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><span>Take a trip</span></a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><span>Drive it</span></a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><span>Eats</span></a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><span>DriveOn for business</span></a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><span>DriveOn Freight</span></a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><span>Health</span></a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><span>DriveOn Air</span></a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><span>Advamced Technologies Group</span></a></li>
+            </ul>
+          </div>
+        </div>
+        
+  
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+          <p>© 2019 DriveOn Technologies Inc. </p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><img class="icone" src="./src/Imagens/facebook.png" alt=""></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><img class="icone" src="./src/Imagens/twitter.png" alt=""></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><img class="icone" src="./src/Imagens/youtube.png" alt=""></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><img class="icone" src="./src/Imagens/instagram.png" alt=""></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="#"><img class="icone" src="./src/Imagens/logotipo-do-linkedin.png" alt=""></a></li>
+            
+
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </section>
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
